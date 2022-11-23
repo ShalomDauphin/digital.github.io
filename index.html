@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Africa Digital Manufacturing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="file:///D:/DM/fontawesome-free-6.2.1-web/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html">
+          <img src="images/1.jpg" alt="logo" />
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="program.html">Programs</a></li>
+            <li><a href="training.html">Trainnings/Courses</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="contact.html">Contact US</a></li>
+          </ul>
+        </div>
+        <div class="africa">
+          <img
+            src="./images/africa1.png"
+            alt="logo"
+            width="5px"
+            height="58px"
+          />
+          <br />
+          <p>This is time for AFRICA</p>
+        </div>
+      </nav>
+      <img
+        class="mySlides"
+        src="images/studentsonlap.jpg"
+        style="width: 100%"
+        height="567px"
+      />
+      <img
+        class="mySlides"
+        src="images/2.jpg"
+        style="width: 100%"
+        height="567px"
+      />
+      <img
+        class="mySlides"
+        src="images/3.jpg"
+        style="width: 100%"
+        height="567px"
+      />
+      <img
+        class="mySlides"
+        src="images/4.JPG"
+        style="width: 100%"
+        height="567px"
+      />
+      <img
+        class="mySlides"
+        src="images/3D metal.jpg"
+        style="width: 100%"
+        height="567px"
+      />
+      <img
+        class="mySlides"
+        src="images/6 f.jpg"
+        style="width: 100%"
+        height="567px"
+      />
+      <div class="text-box">
+        <h1>Africa DM</h1>
+        <p>
+          <b>This is time for AFRICA</b><br />
+          <b>
+            Making website is now one of the easiest thing in the world. You
+            just need to learn it and you are good to go.</b
+          >
+        </p>
+        <a href="contact.html" class="hero-btn"
+          >Visit us for more information</a
+        >
+      </div>
+    </section>
+
+    <section class="qstn">
+      <h1>
+        How Could your Continent look if you could own the entire supply Chain?
+      </h1>
+    </section>
+    <section class="sponsors">
+      <h4>Our Sponsors</h4>
+      <div class="sp">
+        <div><img src="images/RP_Logo.jpeg" alt="" /></div>
+        <div><img src="images/MTN-logo.jpg" alt="" /></div>
+        <div><img src="images/bank-of-kigali-vector-logo.png" alt="" /></div>
+        <div><img src="images/SKOL-Logo-new.jpg" alt="" /></div>
+      </div>
+      <div class="sp1">
+        <div><img src="images/undp.jpg" alt="" /></div>
+        <div><img src="images/airtel-logo.jpg" alt="" /></div>
+        <div><img src="images/au_logo.jpg" alt="" /></div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+      <h4>Reach out to us Via our Social Medias</h4>
+      <p>
+        "There is no one who loves pain itself, who seeks after it and wants to
+        have it, simply because it is pain..."
+      </p>
+      <div class="icons">
+        <a class="fa fa-facebook"></a>
+        <a class="fa fa-twitter"></a>
+        <a class="fa fa-instagram"></a>
+        <a class="fa fa-linkedin"></a>
+      </div>
+    </section>
+
+    <script>
+      // Automatic Slideshow - change image every 3 seconds
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 3000);
+      }
+    </script>
+  </body>
+</html>
